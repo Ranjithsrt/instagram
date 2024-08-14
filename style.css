@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  display: flex;
+}
+
+#bg-insta {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 300px;
+  height: 550px;
+  background-image: linear-gradient(#715fae, #a64a84);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+#bg-insta img {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  width: 150px;
+}
+
+#insta-subject {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+#insta-subject,
+input,
+a {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+span a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  padding: 10px;
+}
+
+#insta-subject p {
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+  color: rgba(240, 255, 255, 0.641);
+}
+
+#fb-logo {
+  display: flex;
+  flex-direction: row;
+}
+
+#fb-logo img {
+  width: 27px;
+  position: absolute;
+  left: 0;
+  bottom: 62px;
+  left: 50px;
+}
+
+#fb-logo span {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: rgba(240, 248, 255, 0.571);
+}
+
+#footer {
+  display: flex;
+  /* background-color: rgba(255, 255, 255, 0.296); */
+  font-size: small;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+  color: rgba(240, 248, 255, 0.64);
+}
+
+#footer a {
+  text-decoration: none;
+}
+
+#insta-subject input:hover {
+  /* border: 1px solid rgb(72, 72, 255); */
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 1s;
+}
+
+ a{
+
+color: white;
+
+}
+
+a:hover {
+  opacity: 0.5;
+  transition: 1s;
+}
+
+#insta-subject input {
+  /* background-color: rgba(255, 255, 255, 0.571); */
+  background-color: white;
+  border: 0;
+}
